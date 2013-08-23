@@ -1,0 +1,13 @@
+{
+    "require": {
+        "php": ">=5.3.1",
+        "silex/silex": "1.*",
+        "doctrine/dbal": "2.2.*",
+        "twig/twig": "~1.8",
+        "davedevelopment/phpmig": "*"
+    },
+
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
