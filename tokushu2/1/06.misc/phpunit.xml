@@ -1,0 +1,13 @@
+<phpunit colors="true" bootstrap="src/bootstrap.php">
+    <testsuites>
+        <testsuite name="SilexAppTests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+</phpunit>
+
